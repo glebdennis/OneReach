@@ -1,10 +1,10 @@
-Four Change:
+Fourth Change:
 # Description:
 
 Use this step to branch the flow data down different paths according to conditions in the flow logic.
 
 
-
+Fourth Change:
 # Help:
 
 This step is useful in causing the flow to move in different directions according to different conditions that exist in the step data. You define certain condition(s) that, if they are met, will cause the flow to proceed down the associated exit leg on this step (“`condition exits`”).
@@ -102,5 +102,5 @@ The toggle ___Ignore text case___, if on, allows you to ignore upper\lower cases
 
 Default reporting event for the step is named Step. You can add additional events. Once the step has been executed, each event collects specific data, which can be used in reports. Flow composer can specify tags for each event. Tag acts as a marker for the event it is specified for. Those markers allow building more extended reports.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0NTg0NjBdfQ==
+eyJoaXN0b3J5IjpbLTIzOTAyMzc5Nl19
 -->
