@@ -1,34 +1,24 @@
 # Description:
 Use this step to branch the flow data down different paths according to conditions in the flow logic. 
+
 # Help:
 This step is useful in causing the flow to move in different directions according to different conditions that exist in the step data. You define certain condition(s) that, if they are met, will cause the flow to proceed down the associated exit leg on this step (“`condition exits`”). 
 
 When the step is reached in the flow, each `condition exit` will be evaluated in order, from top to bottom (in the __step details pane__) or left to right (in the __flow diagram__). The step proceeds down the first __exit leg__ for which the associated condition is met. There is no limit on the number of `condition exits`, but the step will only ever choose one during an execution. If no conditions were met in any of the `condition exits`, the step will exit through the __else exit leg__.
+
 ## Condition exits
 Every `condition exit` has two elements: the definition of the ___condition rule(s)___ that must be met for that exit to be selected, and the __exit leg__ in the step down which the flow will proceed if that condition is met. You must define at least one `condition exit`, and you can have as many `condition exits` as you need.
+
 Clicking the `Add new exit` button creates a new `condition exit` and adds a new __exit leg__ to the step on the __flow canvas__.
 Each `condition exit` consists of ___name___, ___description___, one or more ___condition rules___, and a ___match type___. When you first add the step to the canvas, it won’t have any `condition exits` already included; clicking the `add new exit` button will add one with the default ___name___ __"New Exit 1"__. Each `condition exit` is represented as a gray rectangle in the __step details pane__, and as an __exit leg__ on the step in the __flow canvas__. Note that the `condition exit` ___name___ in the __step details pane__ is the same as the label for the corresponding __exit leg__ on the step in the __flow canvas__. This ___name___ can be changed by clicking it in the __step details area__. `Condition exits` can be reordered using the __grab handle__ to the left of each rectangle, and can be deleted from the step by clicking the __X__ button in the upper-right of the rectangle. If the left edge of a `condition exit` rectangle is __red__, it means there is an error in one or more of its inputs; otherwise the left edge of the rectangle will be __green__.
+
 The ___name___ is the label for the `condition exit` in the __step details pane__ and on the corresponding __exit leg__. This is set by default but can be manually changed. Typically, the ___name___ will be a very short description of what the `condition exit` represents, e.g., __“yes”__ vs. __“no”__, __“red”__ vs. __“blue”__ vs. __“green”__, etc.
-
-  
-
-  
 
 The ___description___ of the `condition exit` is empty by default but can be manually added. This can be helpful when you need to provide a longer explanation for what that `condition exit` represents and/or when it would be selected. This field is intended to help you make your flows more readable, but it is not required and will not affect the flow execution in any way.
 
-  
-
-  
-
 The ___condition rule___ is a set of conditions that must be met for a `condition exit` to be selected. A ___condition rule___ is represented by a white rectangle inside of the gray rectangle of a `condition exit` in the __step details pane__. Each `condition exit` has one ___condition rule___ by default but can have any number of ___condition rules___. You can add ___condition rules___ to the `condition exit` by clicking on ```Add rule``` button.
 
-  
-
-  
-
-The conditions for comparing the data of a ___condition rule___ are set with _Data type_ dropdown, _Input value_ field, _Condition_ dropdown, _Condition value_ field and _Vertical ellipses_:
-
-  
+The conditions for comparing the data of a ___condition rule___ are set with _Data type_ dropdown, _Input value_ field, _Condition_ dropdown, _Condition value_ field and _Vertical ellipses_: 
 
 - The _data type_ can be either _"string"_, _"number"_ or _"any type"_. Choose _"string"_ if you want to compare textual data. Choose _"number"_ if you want to compare numerical data (use period for decimals). Choose _"any type"_ if you want to compare unspecified type of data. The _data type_ is represented by a blue dropdown and is set as _"string"_ by default. To change it, click on the dropdown and choose one of the given variants.
 
@@ -127,5 +117,5 @@ The toggle ___Ignore text case___, if on, allows you to ignore upper\lower cases
 # Reporting Events
 Default reporting event for the step is named Step. You can add additional events. Once the step has been executed, each event collects specific data, which can be used in reports. Flow composer can specify tags for each event. Tag acts as a marker for the event it is specified for. Those markers allow building more extended reports.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxNTE1OTI2XX0=
+eyJoaXN0b3J5IjpbMTAyMDU1ODgyMl19
 -->
