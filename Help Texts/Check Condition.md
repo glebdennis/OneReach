@@ -35,12 +35,11 @@ The conditions for comparing the data of a ___condition rule___ are set with _Da
      * _exactly matches_: This is true when the text in input and condition values match completely (e.g., "John" _exactly matches_ "John")
      * _starts with_: This is true if the text in the condition value exactly matches the first characters in the input value (e.g., Jacksonville, FL" _starts with_ "Jack").
      * _ends with_: This is true if the text in the condition value exactly matches the last characters in the input value (e.g., "Jacksonville, FL" _ends with_ "FL").
+Important note: _string (text)_ values are case sensitive. You many need to use multiple conditions to handle different capitalizations, or force your input value into a certain capitalization before this step, or use JavaScript to ensure you get the right text behaviors. 
+   * *number*
 
-> Important note: _string (text)_ values are case sensitive. You many need to use multiple conditions to handle different capitalizations, or force your input value into a certain capitalization before this step, or use JavaScript to ensure you get the right text behaviors. 
 
-   
 
-    - *number*
 
   
 
@@ -97,6 +96,6 @@ The toggle ___Ignore text case___, if on, allows you to ignore upper\lower cases
 # Reporting Events
 Default reporting event for the step is named Step. You can add additional events. Once the step has been executed, each event collects specific data, which can be used in reports. Flow composer can specify tags for each event. Tag acts as a marker for the event it is specified for. Those markers allow building more extended reports.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjE1Njk0MTEsLTExNDk0NDMxMTEsMT
-AyMDU1ODgyMl19
+eyJoaXN0b3J5IjpbMTQxMTI0MzAxOCwtMTE0OTQ0MzExMSwxMD
+IwNTU4ODIyXX0=
 -->
