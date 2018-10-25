@@ -40,10 +40,11 @@ Important note: _string (text)_ values are case sensitive. You many need to use 
      * _>=_ (greater than or equals)
      * _<=_ (less than or equals)
      * _=_ (equals)
-   * *"object or array"* 
-  
-
-  
+   * *"object or array"*
+     * _is exactly same as_
+     * _isn't exactly same as_
+     *  _is empty_
+     * _isn't empty_
 
 - _Vertical ellipses_ contains options for changing between _UI mode_ and _code mode_ and deleting the ___condition rule___. Note that if you switch to _Code mode_, the values previously set in _input value_ and _condition value_ fields will be lost. Use _code mode_ only if you are an advanced user.
 
@@ -76,6 +77,6 @@ The toggle ___Ignore text case___, if on, allows you to ignore upper\lower cases
 # Reporting Events
 Default reporting event for the step is named Step. You can add additional events. Once the step has been executed, each event collects specific data, which can be used in reports. Flow composer can specify tags for each event. Tag acts as a marker for the event it is specified for. Those markers allow building more extended reports.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDYzMzUwNiwtMTY0NTE4MzcxMSwtMT
-E0OTQ0MzExMSwxMDIwNTU4ODIyXX0=
+eyJoaXN0b3J5IjpbNTYyMjYyNCwtMTY0NTE4MzcxMSwtMTE0OT
+Q0MzExMSwxMDIwNTU4ODIyXX0=
 -->
