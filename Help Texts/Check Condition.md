@@ -1,13 +1,5 @@
 # Description:
-
-  
-
-Use this step to branch the flow data down different paths according to conditions in the flow logic.
-
-  
-
-  
-
+Use this step to branch the flow data down different paths according to conditions in the flow logic. 
 # Help:
 
   
@@ -165,5 +157,5 @@ The toggle ___Ignore text case___, if on, allows you to ignore upper\lower cases
 # Reporting Events
 Default reporting event for the step is named Step. You can add additional events. Once the step has been executed, each event collects specific data, which can be used in reports. Flow composer can specify tags for each event. Tag acts as a marker for the event it is specified for. Those markers allow building more extended reports.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDgyOTUxOV19
+eyJoaXN0b3J5IjpbNDQxNjE0MzE5XX0=
 -->
