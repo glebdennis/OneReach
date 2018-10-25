@@ -29,15 +29,9 @@ The conditions for comparing the data of a ___condition rule___ are set with _Da
 
  - You can change how the _input value_ and the _condition value_ will be compared using the dropdown between those two fields. The method of comparison depends on the type of the data being evaluated:
 
-    *string* (text)
-
-  
-
-* _contains_: This is true if the input value exists anywhere in the condition value (e.g., "May 2007 Sales Figures" _contains_ "Sales").
-
-  
-
-* _doesn't contain_: This is true only if the input value cannot be found anywhere in the condition value (e.g., “Dave Jones” _doesn’t contain_ “Mr.”).
+   * *string* (text)
+     *  _contains_: This is true if the input value exists anywhere in the condition value (e.g., "May 2007 Sales Figures" _contains_ "Sales"). 
+     *_doesn't contain_: This is true only if the input value cannot be found anywhere in the condition value (e.g., “Dave Jones” _doesn’t contain_ “Mr.”).
 
   
 
@@ -114,5 +108,5 @@ The toggle ___Ignore text case___, if on, allows you to ignore upper\lower cases
 # Reporting Events
 Default reporting event for the step is named Step. You can add additional events. Once the step has been executed, each event collects specific data, which can be used in reports. Flow composer can specify tags for each event. Tag acts as a marker for the event it is specified for. Those markers allow building more extended reports.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTE1OTg0MzMsMTAyMDU1ODgyMl19
+eyJoaXN0b3J5IjpbMTE0MzMxMDYxMSwxMDIwNTU4ODIyXX0=
 -->
