@@ -25,13 +25,13 @@ The conditions for comparing the data of a ___condition rule___ are set with _Da
 
   
 
-- The data set in *input value* and *condition value* fields  is the data that is being compared. They are represented by white rectangles inside of the ***condition rule*** rectangle, *input value* on the left, *condition value* on the right. Depending on the chosen *data type*, this data can be filled in plain text mode either manually (click inside the rectangle), with a *merge field* (click on **{x}**), or in *code mode*.  
+ - The data set in *input value* and *condition value* fields  is the data that is being compared. They are represented by white rectangles inside of the ***condition rule*** rectangle, *input value* on the left, *condition value* on the right. Depending on the chosen *data type*, this data can be filled in plain text mode either manually (click inside the rectangle), with a *merge field* (click on **{x}**), or in *code mode*.  
 
-- You can change how the _input value_ and the _condition value_ will be compared using the dropdown between those two fields. The method of comparison depends on the type of the data being evaluated:
+ - You can change how the _input value_ and the _condition value_ will be compared using the dropdown between those two fields. The method of comparison depends on the type of the data being evaluated:
 
-  
+ * _
 
-* _string (text)_
+ _string (text)_
 
   
 
@@ -116,5 +116,5 @@ The toggle ___Ignore text case___, if on, allows you to ignore upper\lower cases
 # Reporting Events
 Default reporting event for the step is named Step. You can add additional events. Once the step has been executed, each event collects specific data, which can be used in reports. Flow composer can specify tags for each event. Tag acts as a marker for the event it is specified for. Those markers allow building more extended reports.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDg1NjExNjMsMTAyMDU1ODgyMl19
+eyJoaXN0b3J5IjpbLTI1MDY0OTM4OCwxMDIwNTU4ODIyXX0=
 -->
