@@ -25,7 +25,7 @@ The conditions for comparing the data of a ___condition rule___ are set with _Da
 
   
 
-- The data set in *input value* and *condition value* fields  is the data that is being compared. They are represented by white rectangles inside of the ***condition rule*** rectangle, *input value* on the left, *condition value* on the right. Depending on the chosen *data type*, this data can be filled in plain text mode either manually or with a merge field (for string and number), or in code mode (for object or array and advanced):. click inside the rectangle for the former or click on {x} for the latter.
+- The data set in *input value* and *condition value* fields  is the data that is being compared. They are represented by white rectangles inside of the ***condition rule*** rectangle, *input value* on the left, *condition value* on the right. Depending on the chosen *data type*, this data can be filled in plain text mode either manually or with a *merge field* (for *"string"* and *"number"*), or in *code mode* (for *"object or array"* and *"advanced"*):. click inside the rectangle for the former or click on {x} for the latter.
 
   
 
@@ -118,5 +118,5 @@ The toggle ___Ignore text case___, if on, allows you to ignore upper\lower cases
 # Reporting Events
 Default reporting event for the step is named Step. You can add additional events. Once the step has been executed, each event collects specific data, which can be used in reports. Flow composer can specify tags for each event. Tag acts as a marker for the event it is specified for. Those markers allow building more extended reports.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1ODYwNDM4NywxMDIwNTU4ODIyXX0=
+eyJoaXN0b3J5IjpbLTY5MzEyNjgxNywxMDIwNTU4ODIyXX0=
 -->
