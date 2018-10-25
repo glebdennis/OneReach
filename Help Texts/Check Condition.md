@@ -40,8 +40,7 @@ Important note: _string (text)_ values are case sensitive. You many need to use 
      * _>=_ (greater than or equals)
      * _<=_ (less than or equals)
      * _=_ (equals)
-   * *"object or array"*
-
+   * *"object or array"* 
   
 
   
@@ -77,6 +76,6 @@ The toggle ___Ignore text case___, if on, allows you to ignore upper\lower cases
 # Reporting Events
 Default reporting event for the step is named Step. You can add additional events. Once the step has been executed, each event collects specific data, which can be used in reports. Flow composer can specify tags for each event. Tag acts as a marker for the event it is specified for. Those markers allow building more extended reports.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4NjAwNDY2LC0xNjQ1MTgzNzExLC0xMT
-Q5NDQzMTExLDEwMjA1NTg4MjJdfQ==
+eyJoaXN0b3J5IjpbLTEyNDYzMzUwNiwtMTY0NTE4MzcxMSwtMT
+E0OTQ0MzExMSwxMDIwNTU4ODIyXX0=
 -->
