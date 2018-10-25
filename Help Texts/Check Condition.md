@@ -17,9 +17,9 @@ The ___name___ is the label for the `condition exit` in the __step details pane_
 
 The ___description___ of the `condition exit` is empty by default but can be manually added. This can be helpful when you need to provide a longer explanation for what that `condition exit` represents and/or when it would be selected. This field is intended to help you make your flows more readable, but it is not required and will not affect the flow execution in any way.
 
-The ___condition rule___ is a set of conditions that must be met for a `condition exit` to be selected. A ___condition rule___ is represented by a white rectangle inside of the gray rectangle of a `condition exit` in the __step details pane__. Each `condition exit` has one ___condition rule___ by default but can have any number of ___condition rules___. You can add ___condition rules___ to the `condition exit` by clicking on ```Add rule``` button and delete ***condition rules*** by clicking on the __X__ button on the right of a condition rule  rectangle.
+The ___condition rule___ is a set of conditions that must be met for a `condition exit` to be selected. A ___condition rule___ is represented by a white rectangle inside of the gray rectangle of a `condition exit` in the __step details pane__. Each `condition exit` has one ___condition rule___ by default but can have any number of ___condition rules___. You can add ___condition rules___ to the `condition exit` by clicking on ```Add rule``` button and delete ***condition rules*** by clicking on the __X__ button on the right of a ***condition rule*** rectangle.
 
-The conditions for comparing the data of a ___condition rule___ are set with _Data type_ dropdown, _Input value_ field, _Condition_ dropdown, _Condition value_ field and _Vertical ellipses_: 
+The conditions for comparing the data of a ___condition rule___ are set with _Data type_ dropdown, _Input value_ field, _Condition_ dropdown and _Condition value_ field: 
 
 - The _data type_ can be either _"string"_, _"number"_ or _"any type"_. Choose _"string"_ if you want to compare textual data. Choose _"number"_ if you want to compare numerical data (use period for decimals). Choose _"any type"_ if you want to compare unspecified type of data. The _data type_ is represented by a blue dropdown and is set as _"string"_ by default. To change it, click on the dropdown and choose one of the given variants.
 
@@ -118,5 +118,5 @@ The toggle ___Ignore text case___, if on, allows you to ignore upper\lower cases
 # Reporting Events
 Default reporting event for the step is named Step. You can add additional events. Once the step has been executed, each event collects specific data, which can be used in reports. Flow composer can specify tags for each event. Tag acts as a marker for the event it is specified for. Those markers allow building more extended reports.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTE2OTM3LDEwMjA1NTg4MjJdfQ==
+eyJoaXN0b3J5IjpbLTIwMjg4MzQ5MDYsMTAyMDU1ODgyMl19
 -->
