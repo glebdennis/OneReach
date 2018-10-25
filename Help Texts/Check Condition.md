@@ -10,6 +10,7 @@ When the step is reached in the flow, each `condition exit` will be evaluated in
 Every `condition exit` has two elements: the definition of the ___condition rule(s)___ that must be met for that exit to be selected, and the __exit leg__ in the step down which the flow will proceed if that condition is met. You must define at least one `condition exit`, and you can have as many `condition exits` as you need.
 
 Clicking the `Add new exit` button creates a new `condition exit` and adds a new __exit leg__ to the step on the __flow canvas__.
+
 Each `condition exit` consists of ___name___, ___description___, one or more ___condition rules___, and a ___match type___. When you first add the step to the canvas, it won’t have any `condition exits` already included; clicking the `add new exit` button will add one with the default ___name___ __"New Exit 1"__. Each `condition exit` is represented as a gray rectangle in the __step details pane__, and as an __exit leg__ on the step in the __flow canvas__. Note that the `condition exit` ___name___ in the __step details pane__ is the same as the label for the corresponding __exit leg__ on the step in the __flow canvas__. This ___name___ can be changed by clicking it in the __step details area__. `Condition exits` can be reordered using the __grab handle__ to the left of each rectangle, and can be deleted from the step by clicking the __X__ button in the upper-right of the rectangle. If the left edge of a `condition exit` rectangle is __red__, it means there is an error in one or more of its inputs; otherwise the left edge of the rectangle will be __green__.
 
 The ___name___ is the label for the `condition exit` in the __step details pane__ and on the corresponding __exit leg__. This is set by default but can be manually changed. Typically, the ___name___ will be a very short description of what the `condition exit` represents, e.g., __“yes”__ vs. __“no”__, __“red”__ vs. __“blue”__ vs. __“green”__, etc.
@@ -117,5 +118,5 @@ The toggle ___Ignore text case___, if on, allows you to ignore upper\lower cases
 # Reporting Events
 Default reporting event for the step is named Step. You can add additional events. Once the step has been executed, each event collects specific data, which can be used in reports. Flow composer can specify tags for each event. Tag acts as a marker for the event it is specified for. Those markers allow building more extended reports.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDU1ODgyMl19
+eyJoaXN0b3J5IjpbLTU4NzQzNTA4MCwxMDIwNTU4ODIyXX0=
 -->
