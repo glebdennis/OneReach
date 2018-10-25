@@ -46,31 +46,18 @@ Important note: _string (text)_ values are case sensitive. You many need to use 
      *  _is empty_
      * _isn't empty_
 
-The ___Match type___ is represented by a dropdown in the top right corner of a `condition exit` and can be either ___"any"___ or __*"all"*__. Choose __*"any"*__ if you want at least one of the ___condition rules___ be met for the flow to go through that `condition exit`. Choose ___"all"___ if you want for every ___condition rule___ be met for the flow to go through that `condition exit`.
+The ___Match type___ is represented by a dropdown in the top right corner of a `condition exit` and can be either ___"any"___ or __*"all"*__. Choose __*"any"*__ if you want at least one of the ___condition rules___ be met for the flow to go through that `condition exit`. Choose ___"all"___ if you want for every ___condition rule___ be met for the flow to go through that `condition exit`.  
 
-  
-
-  
-
-### Advanced settings
-
-  
+# Advanced settings 
 
 ___Else exit leg name___ is the label for the __Else exit leg__. It is set by default as __“else”__ but can be manually changed. The value you put in this field will show up on the __flow diagram__ above the __Else exit leg__.
 
-  
-
-  
-
 The toggle ___Ignore text case___, if on, allows you to ignore upper\lower cases for the data set in _condition value_ field. Note that __Ignore text case__ toggle works only in __UI mode__ and with _"string"_ or _"any type"_ _data types_.
-
-  
-
   
 
 # Reporting Events
 Default reporting event for the step is named Step. You can add additional events. Once the step has been executed, each event collects specific data, which can be used in reports. Flow composer can specify tags for each event. Tag acts as a marker for the event it is specified for. Those markers allow building more extended reports.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzYyNjQ1MSwtMTY0NTE4MzcxMSwtMT
-E0OTQ0MzExMSwxMDIwNTU4ODIyXX0=
+eyJoaXN0b3J5IjpbLTUxMzM5NTc0MywtODA3NjI2NDUxLC0xNj
+Q1MTgzNzExLC0xMTQ5NDQzMTExLDEwMjA1NTg4MjJdfQ==
 -->
