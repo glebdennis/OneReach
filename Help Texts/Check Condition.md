@@ -21,7 +21,7 @@ The ___condition rule___ is a set of conditions that must be met for a `conditio
 
 The conditions for comparing the data of a ___condition rule___ are set with _Data type_ dropdown, _Input value_ field, _Condition_ dropdown and _Condition value_ field: 
 
-- The _data type_ can be either _"string"_, _"number"_, _"object or array"_ or _"advanced"_. Choose _"string"_ if you want to compare textual data. Choose _"number"_ if you want to compare numerical data (use period for decimals). Choose “object or array” if you want to compare objects or arrays. Choose “advanced” if you want to compare unspecified type of data in code mode using JSON format. The _data type_ is represented by a blue dropdown and is set as _"string"_ by default. To change it, click on the dropdown and choose one of the given variants.
+- The _data type_ can be either _"string"_, _"number"_, _"object or array"_ or _"advanced"_. Choose _"string"_ if you want to compare textual data. Choose _"number"_ if you want to compare numerical data (use period for decimals). Choose *“object or array”* if you want to compare data that is represented in a form of an object or an array. Choose *“advanced”* if you want to compare unspecified type of data in code mode using JSON format. The _data type_ is represented by a blue dropdown and is set as _"string"_ by default. To change it, click on the dropdown and choose one of the given variants.
 
   
 
@@ -118,5 +118,5 @@ The toggle ___Ignore text case___, if on, allows you to ignore upper\lower cases
 # Reporting Events
 Default reporting event for the step is named Step. You can add additional events. Once the step has been executed, each event collects specific data, which can be used in reports. Flow composer can specify tags for each event. Tag acts as a marker for the event it is specified for. Those markers allow building more extended reports.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NDk4NzMyMiwxMDIwNTU4ODIyXX0=
+eyJoaXN0b3J5IjpbMTgyMzIyNDcsMTAyMDU1ODgyMl19
 -->
