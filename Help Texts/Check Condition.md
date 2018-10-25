@@ -46,12 +46,6 @@ Important note: _string (text)_ values are case sensitive. You many need to use 
      *  _is empty_
      * _isn't empty_
 
-- _Vertical ellipses_ contains options for changing between _UI mode_ and _code mode_ and deleting the ___condition rule___. Note that if you switch to _Code mode_, the values previously set in _input value_ and _condition value_ fields will be lost. Use _code mode_ only if you are an advanced user.
-
-  
-
-  
-
 The ___Match type___ is represented by a dropdown in the top right corner of a `condition exit` and can be either ___"any"___ or __*"all"*__. Choose __*"any"*__ if you want at least one of the ___condition rules___ be met for the flow to go through that `condition exit`. Choose ___"all"___ if you want for every ___condition rule___ be met for the flow to go through that `condition exit`.
 
   
@@ -77,6 +71,6 @@ The toggle ___Ignore text case___, if on, allows you to ignore upper\lower cases
 # Reporting Events
 Default reporting event for the step is named Step. You can add additional events. Once the step has been executed, each event collects specific data, which can be used in reports. Flow composer can specify tags for each event. Tag acts as a marker for the event it is specified for. Those markers allow building more extended reports.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyMjYyNCwtMTY0NTE4MzcxMSwtMTE0OT
-Q0MzExMSwxMDIwNTU4ODIyXX0=
+eyJoaXN0b3J5IjpbLTgwNzYyNjQ1MSwtMTY0NTE4MzcxMSwtMT
+E0OTQ0MzExMSwxMDIwNTU4ODIyXX0=
 -->
