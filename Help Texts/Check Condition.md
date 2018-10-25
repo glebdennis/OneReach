@@ -52,12 +52,11 @@ The ___Match type___ is represented by a dropdown in the top right corner of a `
 
 ___Else exit leg name___ is the label for the __Else exit leg__. It is set by default as __“else”__ but can be manually changed. The value you put in this field will show up on the __flow diagram__ above the __Else exit leg__.
 
-The toggle ___Ignore text case___, if on, allows you to ignore upper\lower cases for the data set in _condition value_ field. Note that __Ignore text case__ toggle works only in __UI mode__ and with _"string"_ or _"any type"_ _data types_.
-  
+The toggle ___Ignore text case___, if on, allows you to ignore upper\lower cases for the data set in _condition value_ field. Note that __Ignore text case__ toggle doesn’t work in *code mode*. 
 
 # Reporting Events
-Default reporting event for the step is named Step. You can add additional events. Once the step has been executed, each event collects specific data, which can be used in reports. Flow composer can specify tags for each event. Tag acts as a marker for the event it is specified for. Those markers allow building more extended reports.
+Default reporting event for the step is named *Step*. You can add additional events. Once the step has been executed, each event collects specific data, which can be used in reports. Flow composer can specify tags for each event. Tag acts as a marker for the event it is specified for. Those markers allow building more extended reports.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzM5NTc0MywtODA3NjI2NDUxLC0xNj
+eyJoaXN0b3J5IjpbMTQxNTM5MDY0OSwtODA3NjI2NDUxLC0xNj
 Q1MTgzNzExLC0xMTQ5NDQzMTExLDEwMjA1NTg4MjJdfQ==
 -->
